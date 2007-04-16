@@ -1,4 +1,5 @@
 Summary:	MathType Fonts
+Summary(pl.UTF-8):	Fonty MathType
 Name:		fonts-TTF-MathType
 Version:	1.0
 Release:	1
@@ -15,6 +16,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define         ttffontsdir     %{_fontsdir}/TTF
 
 %description
+MathType Fonts.
+
+%description -l pl.UTF-8
+Fonty MathType.
 
 %prep
 %setup -qcT
